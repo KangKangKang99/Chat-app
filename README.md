@@ -7,7 +7,8 @@ The project can be divided into 2 parts according to function
  - login , resgiter : validate, check user, check mail, rememberme with JWT
  - chatting
 # How to run
-1. Run backend server in back-end folder : 
+1. Import tbl_chat database into SQL Database management system
+2. Run backend server in back-end folder : 
  - php artisan serve
 3. Run socket server and frontend server:
  - node server.js
